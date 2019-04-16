@@ -135,47 +135,46 @@ nav a:hover {
 
 /* Hide Dropdowns by Default
   and giving it a position of absolute */
-/* nav ul ul {
+ /* nav ul ul {
 	display: none;
 	position: absolute;  */
 	/* has to be the same number as the "line-height" of "nav a" */
 	/* top: 30px; 
     background: #fff;
     padding: 10px;
-}
-	 */
+} */
+	 
 /* Display Dropdowns on Hover */
 /* nav ul li:hover > ul {
 	display:inherit;
-} */
+}  */
 	
 /* Fisrt Tier Dropdown */
-/* nav ul ul li {
+ /* nav ul ul li {
 	width:170px;
 	float:none;
 	display:list-item;
 	position: relative;
-} */
-/* nav ul ul li a {
+} 
+ nav ul ul li a {
     color: #333;
     padding: 5px 10px;
     display: block;
-} */
+}  */
 
 /* Second, Third and more Tiers	
   We move the 2nd and 3rd etc tier dropdowns to the left
   by the amount of the width of the first tier.
 */
-/* nav ul ul ul li {
+ /* nav ul ul ul li {
 	position: relative;
-	top:-60px; */
+	top:-60px; 
 	/* has to be the same number as the "width" of "nav ul ul li" */ 
-	/* left:170px; 
-} */
-
+	/* /left:170px;  
+}  
 	
 /* Change ' +' in order to change the Dropdown symbol */
-/* li > a:only-child:after { content: ''; } */
+/* /li > a:only-child:after { content: ''; }  */
 
 
 /* Media Queries
@@ -480,6 +479,14 @@ nav a:hover {
     margin-top: 30px;
 }
 /*-- //skills --*/
+.github {
+    display: block;
+    margin-left: auto;
+	margin-right: auto; 
+	height: 30%;
+	width: 30%;
+}
+
 /*-- /extra skills --*/
 h3.ser_tittle.two {
     color: #252525;
@@ -490,8 +497,8 @@ h3.ser_tittle.two {
 .about-grids a {
     padding: 11px 35px;
     color: #fff;
-    background: #0a8ea0;
-    border: 2px solid #0a8ea0;
+    background: #30c39e;
+    border: 2px solid #30c39e;
     font-weight: 500;
     font-size: 15px;
     letter-spacing: 1px;
@@ -653,7 +660,7 @@ h5.text-title {
 	
 }
 .text{
-	background: #0a8ea0;
+	background: #30c39e;
 }
 .text p {
     margin: 0;
@@ -665,7 +672,7 @@ h5.text-title {
 }
 a.work,a.hire:hover {
     padding: 11px 35px;
-    color: #0a8ea0;
+    color: #30c39e;
     background: #fff;
     border: 2px solid #fff;
     font-weight: 500;
@@ -719,7 +726,7 @@ a.work:hover,a.hire {
     letter-spacing: .5px;
 }
 .blog-grid1 a {
-    color: #0a8ea0;
+    color: #30c39e;
     font-weight: 600;
     font-size: 14px;
     letter-spacing: 1px;
@@ -822,8 +829,8 @@ h4.left-grid-blog {
 .contact-right button[type="submit"] {
     padding: 11px 35px;
     color: #fff;
-    background: #0a8ea0;
-	border: 2px solid #0a8ea0;
+    background: #30c39e;
+	border: 2px solid #30c39e;
     font-weight: 600;
     font-size: 15px;
     letter-spacing: 1px;
