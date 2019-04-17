@@ -5,7 +5,7 @@ html {
 body{
 	padding:0;
 	margin:0;
-	background:#fff;
+	background-color:#5a5bc5;
 	position:relative;
 	font-family: 'Lato', sans-serif;
 
@@ -101,25 +101,28 @@ nav ul {
 	margin:0;
 	list-style: none;
 	position: relative;
+	text-align: center;
 	}
 	
 /* Positioning the navigation items inline */
 nav ul li {
 	margin: 0px;
-	display:inline-block;
-	float: left;
+	display:inline;
+	/* float: center; */
 	}
 
 /* Styling the links */
 nav a {
-    color: #fff;
+	color: rgb(0, 0, 0);
+	text-shadow: 0 1px 1px #5a5bc5;
     text-transform: capitalize;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 30px;
     letter-spacing: 1px;
     padding-left: 0;
     padding-right: 0;
 	padding: 10px 0;
+	display:inline-block;
 }
 
 
@@ -259,7 +262,7 @@ nav a:hover {
   
 	nav ul li ul li .toggle,
 	nav ul ul a,
-  nav ul ul ul a{
+  	nav ul ul ul a{
 		padding:14px 20px;	
 		color:#FFF;
 		font-size:17px; 
@@ -397,7 +400,7 @@ nav a:hover {
 }
 .activity_banner_info h3 {
     font-size: 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     text-transform: capitalize;
     letter-spacing: 1px;
     text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
@@ -413,12 +416,12 @@ nav a:hover {
 }
 .activity_banner_info h4 {
     text-transform: capitalize;
-    color: #fff;
+    color: rgb(0, 0, 0);
     letter-spacing: 1px;
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 25px;
-    text-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: 0 3px 3px rgb(136, 136, 136);
 }
 .activity_banner_info p{
     color: #fff;
@@ -431,8 +434,9 @@ nav a:hover {
 .activity_banner_info a {
     padding: 11px 35px;
     background: none;
-    color: #fff;
-    border: 2px solid #fff;
+	color: rgb(0, 0, 0);
+	text-shadow: 0 2px 2px rgb(136, 136, 136);
+    border: 2px solid rgb(0, 0, 0);
     font-weight: 600;
     font-size: 15px;
     letter-spacing: 1px;
@@ -545,7 +549,7 @@ h3.ser_tittle.two {
 h3.heading {
     font-size: 45px;
     text-align: center;
-    color: #333;
+    color: rgb(0, 0, 0);
     font-weight: 600;
     letter-spacing: 5px;
 	position: relative;
@@ -555,7 +559,7 @@ h3.heading:after {
     content: '';
     width: 10%;
     height: 3px;
-    background: #333;
+    background: rgb(0, 0, 0);
     left: 45%;
     bottom: -18%;
 }
@@ -575,7 +579,7 @@ h3.heading:after {
 }
 .services-icon-grid1 h3 {
     text-transform: capitalize;
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -585,12 +589,12 @@ h3.heading:after {
     position: relative;
 }
 .services-icon-grid1 h3 span {
-    color: #fff;
+    color: rgb(0, 0, 0);
     font-size: 35px;
 }
 
 .services-icon-grid1 p {
-    color: #eee;
+    color: rgb(0, 0, 0);
     margin: 1em 0;
     line-height: 30px;
     letter-spacing: .5px;
@@ -712,10 +716,10 @@ a.work:hover,a.hire {
     -ms-background-size: cover;
 }
 .blog h3.heading,.services h3.heading{
-	color: #fff;
+	color: rgb(0, 0, 0);
 }
 .blog h3.heading:after,.services h3.heading:after{
-	background: #fff;
+	background: rgb(0, 0, 0);
 }
 .blog-grids,.project-grids {
     margin-top: 5em; 
@@ -782,7 +786,7 @@ h4.left-grid-blog {
 }
 .contact-grids h4 {
     text-transform: capitalize;
-    color: #333;
+    color: rgb(0, 0, 0);
     font-size: 22px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -790,7 +794,7 @@ h4.left-grid-blog {
 }
 .contact-left h5 {
     text-transform: capitalize;
-    color: #333;
+    color: rgb(0, 0, 0);
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 5px;
@@ -800,7 +804,7 @@ h4.left-grid-blog {
     line-height: 28px;
     letter-spacing: .5px;
     font-size: 16px;
-    color: #666;
+    color: rgb(0, 0, 0);
 }
 .contact-left p a:hover {
     color: #000;
@@ -819,7 +823,7 @@ h4.left-grid-blog {
     padding: .9em 1.3em;
      font-size: 15px;
     letter-spacing: 1px;
-    color: #888;
+    color: rgb(0, 0, 0);
     border: none;
     border: 1px solid #ccc;
     background: none;
@@ -851,7 +855,7 @@ h4.left-grid-blog {
 .contact label {
     width: 17%;
     float: left;
-    color: #333;
+    color: rgb(0, 0, 0);
     font-weight: 600;
 }
 .contact label span {
