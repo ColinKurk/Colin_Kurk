@@ -817,7 +817,7 @@ h4.left-grid-blog {
 .icon span {
     color: #30c39e;
 }
-.contact-right input[type="text"], .contact-right input[type="email"], .contact-right textarea {
+.contact-right input[type="text"], .contact-right input[type="colinkurk@gmail.com"], .contact-right textarea {
     outline: none;
     width: 83%;
     padding: .9em 1.3em;
@@ -844,8 +844,8 @@ h4.left-grid-blog {
     -moz-border-radius: 4px;
     -o-border-radius: 4px;
     -ms-border-radius: 4px;
-     float: right;
-	 cursor: pointer;
+    float: right;
+	cursor: pointer;
 }
 .contact-right button[type="submit"]:hover {
     color: #222;
