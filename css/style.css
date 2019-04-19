@@ -72,7 +72,7 @@ nav {
 
 
 #logo a {
-	float: left;
+	float: right;
     font-size: .8em;
     text-transform: capitalize;
     display: initial;
@@ -82,7 +82,7 @@ nav {
     font-weight: 600;
 }
 #logo a span {
-    color: #30c39e;
+    color: #000000;
 }
 
 
